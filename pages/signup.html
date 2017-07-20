@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Sign Up</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../sass/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+</head>
+
+<body class="teal darken-3">
+    <div class="section"></div>
+    <main>
+        <center class="container">
+            <div class="section"></div>
+            <div class="container">
+                <div class="card container row" style="">
+                    <div class="teal card-title" style="padding:10px">
+                        <h4 class="white-text">Sign up</h4>
+                    </div>
+                    <div class="card-content">
+                    <form class="col s12" method="post">
+                        <div class="row">
+                            <div class="input-field col l s12">
+                                <select>
+                                    <option value="" disabled selected>Choose your farm</option>
+                                    <option value="1">Farm 1</option>
+                                    <option value="2">Farm 2</option>
+                                    <option value="3">Farm 3</option>
+                                </select>
+                                <label>Farm</label>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='input-field col l6 s12'>
+                                <!-- <i class="material-icons prefix">account_circle</i> -->
+                                <input class='validate' type='text' name='fistname' id='fistname' />
+                                <label for='firstname'>First Name</label>
+                            </div>
+                            <div class='input-field col l6 s12'>
+                                <!-- <i class="material-icons prefix">account_circle</i> -->
+                                <input class='validate' type='text' name='lastname' id='lastname' />
+                                <label for='lastname'>Last Name</label>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <!-- <i class="material-icons prefix">account_circle</i> -->
+                                <input class='validate' type='email' name='email' id='email' />
+                                <label for='email'>Email Address</label>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <!-- <i class="material-icons prefix">lock</i> -->
+                                <input class='validate' type='password' name='password' id='password' />
+                                <label for='password'>Password</label>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <!-- <i class="material-icons prefix">lock</i> -->
+                                <input class='validate' type='password' name='password' id='cpassword' />
+                                <label for='cpassword'>Confirm Password</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class='col s12'>
+                                <input type="checkbox" id="filled-in-box"/>
+                                <label for="filled-in-box">I agree to the </label> <a href="#!">Terms of Service</a>
+                            </div>
+                        </div>
+                        <center>
+                            <div class='row'>
+                                <button type='submit' name='btn_login' class='col s12 btn waves-effect teal'>Register</button>
+                            </div>
+                        </center>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </center>
+
+        <div class="section"></div>
+        <div class="section"></div>
+    </main>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/bin/materialize.js"></script>
+  <script src="../js/init.js"></script>
+</body>
+
+</html>
